@@ -18,6 +18,8 @@ public abstract class Adventurer {
         this.purse = 0;
     }
 
+    public Adventurer(){}
+
     public String getName() {
         return name;
     }

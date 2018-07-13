@@ -10,6 +10,7 @@ public class Henchman extends Adventurer{
         this.salary=salary;
 
     }
+    public Henchman(){}
 
     public int getSalary() {
         return salary;

@@ -6,5 +6,4 @@ public class Quest {
     private int awardExperience;
 
 
-
 }
