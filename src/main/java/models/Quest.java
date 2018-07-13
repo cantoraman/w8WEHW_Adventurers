@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Quest {
+
+    private int id;
     private String title;
     private int awardTreasure;
     private int awardExperience;

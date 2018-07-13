@@ -1,6 +1,7 @@
 package models;
 
 public class Company {
+    private int id;
     private String title;
     private int treasury; //where we pay the adventurers, and add excess quest loot into
     private Hero hero;
