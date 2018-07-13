@@ -14,7 +14,7 @@
         <mapping class = "models.Adventurer"/>
         <mapping class = "models.Company"/>
         <mapping class = "models.Hero"/>
-        <mapping class = "models.Henchmen"/>
+        <mapping class = "models.Henchman"/>
         <mapping class = "models.Quest"/>
     </session-factory>
 </hibernate-configuration>

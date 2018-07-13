@@ -42,11 +42,11 @@ public class Company {
         this.treasury = treasury;
     }
 
-    //?
-    public Hero getHero() {
-        return hero;
-    }
-    public void setHero(Hero hero) {
-        this.hero = hero;
-    }
+//    //?
+//    public Hero getHero() {
+//        return hero;
+//    }
+//    public void setHero(Hero hero) {
+//        this.hero = hero;
+//    }
 }

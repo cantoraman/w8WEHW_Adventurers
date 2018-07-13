@@ -62,6 +62,7 @@ public class Hero extends Adventurer{
     //
     //Quests
     @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+    @ManyToMany
     @JoinTable(name = "heroes_quests",
             joinColumns = {@JoinColumn(name = "hero_id", nullable = false, updatable = false)},
             inverseJoinColumns = {@JoinColumn(name = "quest_id", nullable = false, updatable = false)})

@@ -27,10 +27,10 @@ public class CompaniesTest {
         assertEquals(10000, company.getTreasury());
     }
 
-    @Test
-    public void hasHero(){
-        company.setHero(hero);
-        assertEquals("Aegon Targaryen", company.getHero().getName());
-    }
+//    @Test
+//    public void hasHero(){
+//        company.setHero(hero);
+//        assertEquals("Aegon Targaryen", company.getHero().getName());
+//    }
 }
 

@@ -1,5 +1,7 @@
 package models;
 
+import org.hibernate.annotations.Cascade;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -57,7 +59,8 @@ public class Quest {
         this.awardTreasure = awardTreasure;
     }
 
-
+    @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+    @ManyToMany
     @JoinTable(name = "heroes_quests",
             joinColumns = {@JoinColumn(name = "quest_id", nullable = false, updatable = false)},
             inverseJoinColumns = {@JoinColumn(name = "hero_id", nullable = false, updatable = false)})
