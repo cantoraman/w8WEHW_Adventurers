@@ -36,6 +36,8 @@ public class Hero extends Adventurer{
         this.company = company;
     }
 
+    //
+    //Henchmen
     public List<Henchman> getHenchmen() {
         return henchmen;
     }
@@ -43,10 +45,26 @@ public class Hero extends Adventurer{
         this.henchmen = henchmen;
     }
 
+    public void addHenchman(Henchman henchman){
+        henchmen.add(henchman);
+    }
+    public void removeHenchman(Henchman henchman){
+        henchmen.remove(henchman);
+    }
+
+    //
+    //Quests
     public List<Quest> getQuests() {
         return quests;
     }
     public void setQuests(List<Quest> quests) {
         this.quests = quests;
     }
+
+    public void addQuest(Quest quest){
+        quests.add(quest);
+    } public void removeQuest(Quest quest){
+        quests.remove(quest);
+    }
+    //
 }

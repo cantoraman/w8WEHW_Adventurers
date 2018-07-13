@@ -7,7 +7,7 @@ public abstract class Adventurer {
     private int experience;
     private int level;
     private Weapon weapon;
-    private double purse;
+    private int purse;
 
     public Adventurer(String name, int hp, Weapon weapon){
         this.name = name;
@@ -55,10 +55,10 @@ public abstract class Adventurer {
         this.weapon = weapon;
     }
 
-    public double getPurse() {
+    public int getPurse() {
         return purse;
     }
-    public void setPurse(double purse) {
+    public void setPurse(int purse) {
         this.purse = purse;
     }
 }
