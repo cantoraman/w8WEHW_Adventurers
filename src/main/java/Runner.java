@@ -1,4 +1,6 @@
 import db.DBHelper;
+import db.DBHenchman;
+import db.DBHero;
 import models.*;
 
 public class Runner {
@@ -30,22 +32,38 @@ public class Runner {
         Henchman hm1 = new Henchman("Volkov", 60, Weapon.BOW, 200);
         hm1.setHero(hero1);
         DBHelper.save(hm1);
+        DBHero.addHenchmanToHero(hm1, hero1);
+
         Henchman hm2 = new Henchman("Tristan", 80, Weapon.SWORD, 300);
         hm2.setHero(hero1);
         DBHelper.save(hm2);
+        DBHero.addHenchmanToHero(hm2, hero1);
+
+
         Henchman hm3 = new Henchman("Locras", 40, Weapon.AXE, 100);
         hm3.setHero(hero1);
         DBHelper.save(hm3);
+        DBHero.addHenchmanToHero(hm3, hero1);
+
+
         Henchman hm4 = new Henchman("Drake", 100, Weapon.AXE, 350);
         hm4.setHero(hero2);
         DBHelper.save(hm4);
+        DBHero.addHenchmanToHero(hm4, hero2);
+
         Henchman hm5 = new Henchman("Ivan", 90, Weapon.BOW, 90);
         hm5.setHero(hero2);
         DBHelper.save(hm5);
+        DBHero.addHenchmanToHero(hm5, hero2);
+
         Henchman hm6 = new Henchman("Jade", 50, Weapon.BOW, 100);
         hm6.setHero(hero2);
         DBHelper.save(hm6);
+        DBHero.addHenchmanToHero(hm6, hero2);
 
+
+        DBHero.setOnAQuest(hero1, quest1);
+        DBHero.setOnAQuest(hero1, quest2);
 
 
 

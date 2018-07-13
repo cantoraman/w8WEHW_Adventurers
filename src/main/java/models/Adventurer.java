@@ -60,12 +60,27 @@ public abstract class Adventurer {
         this.experience = experience;
     }
 
+    public void addExperience(int amount){
+        this.experience+=amount;
+    }
+
     @Column(name="level")
     public int getLevel() {
         return level;
     }
     public void setLevel(int level) {
         this.level = level;
+    }
+
+    public void assignLevel(){
+       if(experience<1000)
+                level=1;
+       if (experience>1000 && experience<2000)
+                level=2;
+       if (experience>2000 && experience<3000)
+                level=3;
+       if (experience>3000)
+                level=4;
     }
 
     @Enumerated(value = EnumType.STRING)
@@ -82,5 +97,9 @@ public abstract class Adventurer {
     }
     public void setPurse(int purse) {
         this.purse = purse;
+    }
+
+    public void addTreasure(int amount){
+       this.purse += amount;
     }
 }
