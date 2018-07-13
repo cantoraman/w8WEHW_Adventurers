@@ -1,14 +1,17 @@
 package models;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
+@Table(name="heroes")
 public class Hero extends Adventurer{
 
     private double royaltyRate; //hero gets a royalty from each quest as a percentage
-
     private Company company;
-
     private List<Quest> quests;
     private List<Henchman> henchmen;
 
@@ -22,6 +25,7 @@ public class Hero extends Adventurer{
 
     public Hero(){}
 
+    @Column(name="royalty_rate")
     public double getRoyaltyRate() {
         return royaltyRate;
     }
@@ -29,6 +33,7 @@ public class Hero extends Adventurer{
         this.royaltyRate = royaltyRate;
     }
 
+    @Column(name="company")
     public Company getCompany() {
         return company;
     }

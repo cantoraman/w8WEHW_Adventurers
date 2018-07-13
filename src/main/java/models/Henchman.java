@@ -1,5 +1,11 @@
 package models;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="hencmen")
 public class Henchman extends Adventurer{
     private int salary;  //henchmen get basic salary for every quest they attend
 
@@ -12,6 +18,7 @@ public class Henchman extends Adventurer{
     }
     public Henchman(){}
 
+    @Column(name="salary")
     public int getSalary() {
         return salary;
     }

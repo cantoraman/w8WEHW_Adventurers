@@ -1,8 +1,13 @@
 package models;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
+@Table(name="quests")
 public class Quest {
 
     private int id;
@@ -19,6 +24,7 @@ public class Quest {
         heroes = new ArrayList<Hero>();
     }
 
+    @Column(name="name")
     public String getName() {
         return title;
     }
@@ -26,6 +32,7 @@ public class Quest {
         this.title = name;
     }
 
+    @Column(name="award_experience")
     public int getAwardExperience() {
         return awardExperience;
     }
@@ -33,6 +40,7 @@ public class Quest {
         this.awardExperience = awardExperience;
     }
 
+    @Column(name="award_treasure")
     public int getAwardTreasure() {
         return awardTreasure;
     }
