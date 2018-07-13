@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d63de91-7ca7-45cb-b290-1193d8dd75c4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Adventurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Adventurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Henchman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Henchman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Quest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Company.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Company.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -60,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Quest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Quest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="390">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -90,9 +86,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/models/Adventurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Henchman.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Quest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Hero.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Quest.java" />
       </list>
     </option>
   </component>
@@ -268,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531481518347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sets up company class">
+      <created>1531481892157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531481892157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -309,7 +312,8 @@
     <MESSAGE value="adds hibernate cfg" />
     <MESSAGE value="adds weapon enum" />
     <MESSAGE value="creates 30percent of adventurer and subsequent classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="creates 30percent of adventurer and subsequent classes" />
+    <MESSAGE value="sets up company class" />
+    <option name="LAST_COMMIT_MESSAGE" value="sets up company class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -336,13 +340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Quest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -375,6 +372,13 @@
             <element signature="e#186#187#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Quest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
         </state>
       </provider>
     </entry>
