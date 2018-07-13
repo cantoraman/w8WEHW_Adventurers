@@ -4,14 +4,14 @@ import java.util.List;
 
 public class Hero extends Adventurer{
 
-    private int royaltyRate; //hero gets a royalty from each quest as a percentage
+    private double royaltyRate; //hero gets a royalty from each quest as a percentage
 
     private Company company;
 
     private List<Quest> quests;
 
 
-    public Hero(String name, int hp, Weapon weapon, int royaltyRate, Company company) {
+    public Hero(String name, int hp, Weapon weapon, double royaltyRate, Company company) {
         super(name, hp, weapon);
         this.royaltyRate = royaltyRate;
         this.company = company;
@@ -19,10 +19,10 @@ public class Hero extends Adventurer{
 
     public Hero(){}
 
-    public int getRoyaltyRate() {
+    public double getRoyaltyRate() {
         return royaltyRate;
     }
-    public void setRoyaltyRate(int royaltyRate) {
+    public void setRoyaltyRate(double royaltyRate) {
         this.royaltyRate = royaltyRate;
     }
 
