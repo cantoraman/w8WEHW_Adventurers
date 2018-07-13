@@ -4,24 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Quest {
-    private String name;
+    private String title;
     private int awardTreasure;
     private int awardExperience;
     private List<Hero> heroes;
 
 
-    public Quest(String name, int awardTreasure, int awardExperience) {
-        this.name = name;
+    public Quest(String title, int awardTreasure, int awardExperience) {
+        this.title = title;
         this.awardTreasure = awardTreasure;
         this.awardExperience = awardExperience;
         heroes = new ArrayList<Hero>();
     }
 
     public String getName() {
-        return name;
+        return title;
     }
     public void setName(String name) {
-        this.name = name;
+        this.title = name;
     }
 
     public int getAwardExperience() {
@@ -44,4 +44,15 @@ public class Quest {
     public void setHeroes(List<Hero> heroes) {
         this.heroes = heroes;
     }
+
+
+
+    public void addHero(Hero hero){
+        heroes.add(hero);
+    }
+    public void removeHero(Hero hero){
+        heroes.remove(hero);
+    }
+
+
 }
