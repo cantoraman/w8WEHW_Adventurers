@@ -1,8 +1,6 @@
 package models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,14 +46,16 @@ public class Quest {
         this.awardTreasure = awardTreasure;
     }
 
+
+    @JoinTable(name = "heroes_quests",
+            joinColumns = {@JoinColumn(name = "quest_id", nullable = false, updatable = false)},
+            inverseJoinColumns = {@JoinColumn(name = "hero_id", nullable = false, updatable = false)})
     public List<Hero> getHeroes() {
         return heroes;
     }
     public void setHeroes(List<Hero> heroes) {
         this.heroes = heroes;
     }
-
-
 
     public void addHero(Hero hero){
         heroes.add(hero);
