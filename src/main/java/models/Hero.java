@@ -42,6 +42,7 @@ public class Hero extends Adventurer{
 
     //
     //Henchmen
+    @OneToMany(mappedBy = "hero", fetch = FetchType.LAZY)
     public List<Henchman> getHenchmen() {
         return henchmen;
     }

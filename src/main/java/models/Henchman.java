@@ -1,8 +1,6 @@
 package models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="henchmen")
@@ -26,4 +24,13 @@ public class Henchman extends Adventurer{
         this.salary = salary;
     }
 
+
+    @ManyToOne
+    @JoinColumn(name="hero_id", nullable = false)
+    public Hero getHero() {
+        return hero;
+    }
+    public void setHero(Hero hero) {
+        this.hero = hero;
+    }
 }
