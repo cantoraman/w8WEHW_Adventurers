@@ -33,7 +33,7 @@ public class Company {
         this.treasury = treasury;
     }
 
-
+    //?
     public Hero getHero() {
         return hero;
     }

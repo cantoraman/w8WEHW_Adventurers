@@ -1,8 +1,6 @@
 package models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,7 +31,8 @@ public class Hero extends Adventurer{
         this.royaltyRate = royaltyRate;
     }
 
-    @Column(name="company")
+    @OneToOne
+    @JoinColumn(name = "company_id", nullable = false)
     public Company getCompany() {
         return company;
     }

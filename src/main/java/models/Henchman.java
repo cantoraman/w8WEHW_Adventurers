@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="hencmen")
+@Table(name="henchmen")
 public class Henchman extends Adventurer{
     private int salary;  //henchmen get basic salary for every quest they attend
 
