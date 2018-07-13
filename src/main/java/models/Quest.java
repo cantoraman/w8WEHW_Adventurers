@@ -1,5 +1,6 @@
 package models;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Quest {
@@ -13,6 +14,7 @@ public class Quest {
         this.name = name;
         this.awardTreasure = awardTreasure;
         this.awardExperience = awardExperience;
+        heroes = new ArrayList<Hero>();
     }
 
     public String getName() {
