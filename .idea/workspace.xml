@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d63de91-7ca7-45cb-b290-1193d8dd75c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/DBHenchman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/DBHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/DBQuest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Adventurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Adventurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DBHenchman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DBHenchman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DBHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DBHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Quest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +24,8 @@
       <file leaf-file-name="Hero.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Hero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="88">
+              <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1145#1146#0" expanded="true" />
@@ -43,8 +44,8 @@
       <file leaf-file-name="Adventurer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Adventurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+            <state relative-caret-position="346">
+              <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
               <folding>
                 <element signature="e#1301#1302#0" expanded="true" />
                 <element signature="e#1340#1341#0" expanded="true" />
@@ -66,7 +67,7 @@
       <file leaf-file-name="Henchman.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Henchman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="150">
               <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
@@ -75,8 +76,8 @@
       <file leaf-file-name="Quest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Quest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="-44">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="157">
+              <caret line="73" column="72" lean-forward="true" selection-start-line="73" selection-start-column="72" selection-end-line="73" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBHero.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBHero.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            <state relative-caret-position="361">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,8 +112,8 @@
       <file leaf-file-name="DBHenchman.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHenchman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="288">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +121,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DBQuest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/db/DBQuest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#580#588#0" expanded="true" />
+                <element signature="e#1530#1547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-511">
+            <state relative-caret-position="-718">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -154,14 +178,15 @@
         <option value="$PROJECT_DIR$/src/test/java/HeroesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Henchman.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Company.java" />
         <option value="$PROJECT_DIR$/src/test/java/CompaniesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Quest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/db/DBHenchman.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Adventurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Hero.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Quest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/DBHenchman.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/DBHero.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/DBQuest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
       </list>
     </option>
   </component>
@@ -551,7 +576,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531494842122</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fixes questing henchmen database bug">
+      <created>1531499789054</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1531499789054</updated>
+    </task>
+    <task id="LOCAL-00020" summary="works on henchman quest fetching">
+      <created>1531501442896</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1531501442896</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -590,32 +629,32 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32969698" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.42181817" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3709091" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32969698" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32969698" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.35878786" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.3709091" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -640,19 +679,21 @@
     <MESSAGE value="adds hibernateutil and dbhelper" />
     <MESSAGE value="sets up runner" />
     <MESSAGE value="sets base point for further querries" />
-    <option name="LAST_COMMIT_MESSAGE" value="sets base point for further querries" />
+    <MESSAGE value="fixes questing henchmen database bug" />
+    <MESSAGE value="works on henchman quest fetching" />
+    <option name="LAST_COMMIT_MESSAGE" value="works on henchman quest fetching" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Runner.java</url>
-          <line>70</line>
+          <line>78</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -719,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CompaniesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -738,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
+        <state relative-caret-position="-718">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -746,10 +780,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Quest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="-44">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -758,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Adventurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        <state relative-caret-position="346">
+          <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
           <folding>
             <element signature="e#1301#1302#0" expanded="true" />
             <element signature="e#1340#1341#0" expanded="true" />
@@ -777,17 +818,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Henchman.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="361">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="88">
+          <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1145#1146#0" expanded="true" />
@@ -802,30 +846,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Henchman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHenchman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="288">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHero.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBQuest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state relative-caret-position="202">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#580#588#0" expanded="true" />
+            <element signature="e#1530#1547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="73" column="72" lean-forward="true" selection-start-line="73" selection-start-column="72" selection-end-line="73" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -24,6 +24,7 @@ public class Quest {
         heroes = new ArrayList<Hero>();
     }
 
+    public Quest(){}
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -23,7 +23,7 @@ public class DBHero {
     public static void setOnAQuest(Hero hero, Quest quest) {
 
         hero.addQuest(quest);
-
+      //  quest.addHero(hero);
         int theLoot = quest.getAwardTreasure();
 
         hero.addTreasure((int)(theLoot*hero.getRoyaltyRate()));
@@ -43,6 +43,7 @@ public class DBHero {
 
         hero.assignLevel();
         DBHelper.update(hero);
+      //  DBHelper.update(quest);
     }
 }
 

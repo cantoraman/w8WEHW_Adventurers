@@ -1,7 +1,10 @@
 import db.DBHelper;
 import db.DBHenchman;
 import db.DBHero;
+import db.DBQuest;
 import models.*;
+
+import java.util.List;
 
 public class Runner {
 
@@ -64,9 +67,14 @@ public class Runner {
 
         DBHero.setOnAQuest(hero1, quest1);
         DBHero.setOnAQuest(hero1, quest2);
+        DBHero.setOnAQuest(hero2, quest1);
+     //   DBHero.setOnAQuest(hero2, quest2);
 
 
+        List<Quest> foundQuests = DBHenchman.getQuestsFromHenchman(hm1);
 
+        Weapon popularWeapon1 = DBQuest.getMostWidelyUsedWeaponFromQuest(quest1);
+        Weapon popularWeapon2 = DBQuest.getMostWidelyUsedWeaponFromQuest(quest2);
 
         System.exit(0);
     }

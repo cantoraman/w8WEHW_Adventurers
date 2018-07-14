@@ -14,7 +14,7 @@ public class Company {
         this.title =title;
         this.treasury = treasury;
     }
-
+    public Company(){}
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
